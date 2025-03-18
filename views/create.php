@@ -21,4 +21,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     Edad: <input type="number" name="edad" required><br>
     <button type="submit">Guardar</button>
 </form>
+
+<a href="/ActividadSemana9/index.php">Regresar a Inicio</a>
+
 <?php include("../includes/footer.php"); ?>

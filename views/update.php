@@ -28,4 +28,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     Edad: <input type="number" name="edad" value="<?php echo $row['edad']; ?>" required><br>
     <button type="submit">Actualizar</button>
 </form>
+
+<a href="/ActividadSemana9/index.php">Regresar a Inicio</a>
 <?php include("../includes/footer.php"); ?>

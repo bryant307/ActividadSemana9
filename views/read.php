@@ -17,8 +17,10 @@ while ($row = $result->fetch_assoc()) {
             <a href='delete.php?id={$row['id']}'>Eliminar</a>
         </td>
     </tr>";
+    
 }
 echo "</table>";
+
 
 include("../includes/footer.php");
 ?>
